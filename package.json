@@ -1,0 +1,16 @@
+{
+  "name": "suggestioner",
+  "version": "1.0.0",
+  "description": "Suggest a name based on details user give to bot with Chat-GPT",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "knzii",
+  "license": "MIT",
+
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
